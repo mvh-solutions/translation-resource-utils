@@ -1,4 +1,5 @@
 import requests
+import re
 import json
 import sys
 import os
@@ -26,10 +27,17 @@ url = 'https://api.deepl.com/v2/translate'
 outputLines = []
 with open(os.path.abspath(inPath), 'r') as f:
     lineNo = 0
+    linkRegex = r'\[\[.*?\]\]'
     for line in f.readlines():
         cells = line.split('\t')
         if lineNo > 0:
             srcText = cells[8]
+            matches = re.findall(linkRegex, srcText)
+            matchIndex = 0
+            for match in matches:
+                matchRegex = re.escape(match)
+                srcText = re.sub(matchRegex, "[[{0}]]".format(matchIndex), srcText, 1)
+                matchIndex += 1
             args = {
                 'auth_key': auth_key,
                 'text': srcText,
@@ -39,7 +47,13 @@ with open(os.path.abspath(inPath), 'r') as f:
             if response.status_code != 200:
                 sys.stderr.write("Response code {0} from deepL at input line {1} - skipping\n".format(response.status_code, lineNo))
             else:
-                cells[8] = json.loads(response.text)['translations'][0]['text']
+                srcText = json.loads(response.text)['translations'][0]['text']
+                matchIndex = 0
+                for match in matches:
+                    matchRegex = re.escape('[[') + str(matchIndex) + re.escape(']]')
+                    srcText = re.sub(matchRegex, match, srcText, 1)
+                    matchIndex += 1
+                cells[8] = srcText
         outputLines.append('\t'.join(cells))
         lineNo += 1
 
