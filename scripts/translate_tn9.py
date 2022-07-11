@@ -36,7 +36,10 @@ with open(os.path.abspath(inPath), 'r') as f:
                 'target_lang': lang
             }
             response = requests.post(url, data=args)
-            cells[8] = json.loads(response.text)['translations'][0]['text']
+            if response.status_code != 200:
+                sys.stderr.write("Response code {0} from deepL at input line {1} - skipping\n".format(response.status_code, lineNo))
+            else:
+                cells[8] = json.loads(response.text)['translations'][0]['text']
         outputLines.append('\t'.join(cells))
         lineNo += 1
 
