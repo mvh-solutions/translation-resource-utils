@@ -27,6 +27,10 @@ url = 'https://api.deepl.com/v2/translate'
 output = ""
 with open(os.path.abspath(inPath), 'r') as f:
     linkRegex = r'\[\[.*?\]\]|\[[^\]]*?\]\([^\)]*?\)'
+    startMarkdownRegex = r'([_*]{2})(\S)'
+    endMarkdownRegex = r'(\S)([_*]{2})'
+    startMarkdownRegex2 = r'([_*]{2})> (\S)'
+    endMarkdownRegex2 = r'(\S) <([_*]{2})'
     lines = []
     for line in f.readlines():
         lines.append(line)
@@ -37,6 +41,8 @@ with open(os.path.abspath(inPath), 'r') as f:
         matchRegex = re.escape(match)
         srcText = re.sub(matchRegex, "[[{0}]]".format(matchIndex), srcText, 1)
         matchIndex += 1
+    srcText = re.sub(endMarkdownRegex, "\\1 <\\2", srcText)
+    srcText = re.sub(startMarkdownRegex, "\\1> \\2", srcText)
     args = {
         'auth_key': auth_key,
         'text': srcText,
@@ -52,6 +58,8 @@ with open(os.path.abspath(inPath), 'r') as f:
             matchRegex = re.escape('[[') + str(matchIndex) + re.escape(']]')
             srcText = re.sub(matchRegex, match, srcText, 1)
             matchIndex += 1
+    srcText = re.sub(endMarkdownRegex2, "\\1\\2", srcText)
+    srcText = re.sub(startMarkdownRegex2, "\\1\\2", srcText)
     output = srcText
 
 with open(os.path.abspath(outPath), "w") as f:
