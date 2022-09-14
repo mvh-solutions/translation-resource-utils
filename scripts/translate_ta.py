@@ -3,6 +3,7 @@ import re
 import json
 import sys
 import os
+import time
 
 usage = "USAGE: python translate_ta.py <lang> <credsPath> <inDir> <outDir>"
 if len(sys.argv) != 5:
@@ -64,10 +65,19 @@ for subdir1 in os.listdir(inDir):
                 'text': srcText,
                 'target_lang': lang
             }
-            response = requests.post(url, data=args)
+            try:
+                response = requests.post(url, data=args)
+            except Exception:
+                print('Exception: retrying')
+                time.sleep(5)
+                response = requests.post(url, data=args)
             if response.status_code != 200:
-                sys.stderr.write("Response code {0} from deepL at input line {1}\n".format(response.status_code, lineNo))
-                sys.exit(1)
+                print('Bad response code: retrying')
+                time.sleep(5)
+                response = requests.post(url, data=args)
+                if response.status_code != 200:
+                    sys.stderr.write("Response code {0} from deepL at input line {1}\n".format(response.status_code, lineNo))
+                    sys.exit(1)
             else:
                 srcText = json.loads(response.text)['translations'][0]['text']
                 matchIndex = 0
@@ -78,6 +88,6 @@ for subdir1 in os.listdir(inDir):
                     srcText = re.sub(endMarkdownRegex2, "\\1\\2", srcText)
                     srcText = re.sub(startMarkdownRegex2, "\\1\\2", srcText)
                     output = srcText
-            
+
             with open(os.path.abspath(outPath), "w") as f:
                 f.write(output)

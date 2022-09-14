@@ -1,0 +1,187 @@
+Book	Chapter	Verse	ID	SupportReference	OrigQuote	Occurrence	GLQuote	OccurrenceNote
+
+PHM	front	intro	sz2w			0		# Introduction à Philémon<br><br>## Première partie : Introduction générale<br><br>#### Schéma du livre de Philémon<br><br>1. Paul salue Philémon (1:1-3)<br>2. Paul fait des demandes à Philémon au sujet d'Onésime (1:4-21)<br>3. Conclusion (1:22-25)<br><br>### Qui a écrit le livre de Philémon?<br><br>Paul a écrit Philémon. Paul était originaire de la ville de Tarse. Il avait été connu sous le nom de Saul dans sa première vie. Avant de devenir chrétien, Saul était un pharisien. Il a persécuté les chrétiens. Après être devenu chrétien, il a voyagé plusieurs fois dans l'Empire romain pour parler de Jésus aux gens.<br><br>Paul était en prison lorsqu'il a écrit cette lettre.<br><br>#### De quoi parle le livre de Philémon ?<br><br>Paul a écrit cette lettre à un homme nommé Philémon. Philémon était un croyant en Jésus qui vivait dans la ville de Colosses. Il possédait un esclave nommé Onésime. Onésime s'était enfui de chez Philémon et lui avait peut-être aussi volé quelque chose. Onésime est allé à Rome et a rendu visite à Paul en prison là-bas, où Paul a amené Onésime à Jésus.<br><br>Paul a dit à Philémon qu'il lui renvoyait Onésime. Philémon avait le droit d'exécuter Onésime selon la loi romaine. Mais Paul a dit que Philémon devrait accepter le retour d'Onésime comme un frère chrétien. Il a même suggéré que Philémon permette à Onésime de revenir auprès de Paul et de l'aider en prison.<br><br>### Comment traduire le titre de ce livre ?<br><br>Les traducteurs peuvent choisir d'appeler ce livre par son titre traditionnel, "Philémon". Ou ils peuvent choisir un titre plus clair, comme "La lettre de Paul à Philémon" ou "La lettre que Paul a écrite à Philémon." (Voir : [[rc://en/ta/man/translate/translate-names]])<br><br>## Partie 2 : Concepts religieux et culturels importants<br><br>### Cette lettre approuve-t-elle la pratique de l'esclavage?<br><br>Paul a renvoyé Onésime à son ancien maître. Mais cela ne signifie pas que Paul pensait que l'esclavage était une pratique acceptable. Au contraire, Paul était plus préoccupé par le fait que les gens soient réconciliés les uns avec les autres et qu'ils servent Dieu dans n'importe quelle situation dans laquelle ils se trouvent. Il est important de noter que dans la culture de l'époque, les gens devenaient esclaves pour diverses raisons et ce n'était pas considéré comme un état permanent.<br><br>#### Que veut dire Paul par l'expression " en Christ ", " dans le Seigneur ", etc...<br><br>Paul voulait exprimer l'idée d'une union très étroite avec le Christ et les croyants. Voir l'introduction au livre de Romains pour plus de détails sur ce genre d'expression.<br><br>## Partie 3 : Questions importantes de traduction<br><br>### Singulier et pluriel "vous"<br><br>Dans ce livre, le mot "je" désigne Paul. Le mot "tu" est presque toujours au singulier et fait référence à Philémon. Les deux exceptions à cette règle sont 1:22 et 1:25. Là, " vous " désigne Philémon et les croyants qui se réunissaient chez lui (voir : [[rc://en/ta/man/translate/figs-exclusive]] et [[rc://en/ta/man/translate/figs-you]])<br><br>Trois fois, Paul s'identifie comme l'auteur de cette lettre (aux versets 1, 9 et 19). De toute évidence, Timothée était avec lui et a pu écrire les mots tels que Paul les a prononcés. Toutes les occurrences de "je", "moi" et "mon" font référence à Paul. Philémon est la principale personne à qui cette lettre est écrite. Toutes les occurrences de "tu" et "ton" se rapportent à lui et sont au singulier, sauf indication contraire. (Voir : [[rc://en/ta/man/translate/figs-you]])
+
+PHM	1	1	ne8k	figs-123person	Παῦλος	1		Votre langue a peut-être une façon particulière de présenter l'auteur d'une lettre. Utilisez-la ici. Autres traductions possibles : "De moi, Paul" ou "Je, Paul" (Voir : rc://fr/ta/man/translate/figs-123person)
+
+PHM	1	1	cgs4		δέσμιος Χριστοῦ Ἰησοῦ	1	a prisoner of Christ Jesus	Paul était en prison parce que les autorités ne voulaient pas qu'il prêche sur Jésus. Ils l'ont mis là pour l'arrêter et le punir. Cela ne signifie pas que Jésus avait mis Paul en prison. Autre traduction : "prisonnier pour l'amour de Jésus-Christ".
+
+PHM	1	1	sv3p		ὁ ἀδελφὸς	1	our brother	Paul utilise le terme **> frère <** au sens figuré pour désigner quelqu'un qui partage la même foi. Traduction alternative : " notre compagnon chrétien " ou " notre compagnon dans la foi " (Voir : rc://fr/ta/man/translate/figs-metaphor).
+
+PHM	1	1	y9zu	figs-exclusive	ὁ ἀδελφὸς	1		Ici, le mot **our** n'est pas dans l'original, mais était nécessaire pour l'anglais, qui exige qu'un mot de relation indique à qui la personne est liée. Dans ce cas, **our** serait inclusif, reliant Timothée à Paul et aux lecteurs comme un frère en Christ. Si votre langue exige cela, vous pouvez faire de même. Sinon, vous pouvez suivre la formulation originale, qui dit, "le frère". (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+PHM	1	1	gvmy	translate-names	Φιλήμονι	1		C'est le nom d'un homme. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	1	q84z	figs-explicit	Φιλήμονι	1		Si cela est plus naturel dans votre langue, vous pouvez inclure l'information qu'il s'agit d'une lettre dans laquelle Paul s'adresse directement à Philémon, comme dans l'UST. (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	1	r3l9	figs-exclusive	ἡμῶν	1	our	Le mot **notre** désigne ici Paul et ceux qui l'accompagnent, mais pas le lecteur. (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+PHM	1	1	ww3l		καὶ συνεργῷ ἡμῶν	1	and our fellow worker	Si vos lecteurs comprennent mal cette phrase, vous pourriez indiquer plus précisément comment Philémon a travaillé avec Paul. Autre traduction possible : "qui, comme nous, travaille pour répandre l'évangile" ou "qui travaille comme nous pour servir Jésus".
+
+PHM	1	2	b37l	translate-names	Ἀπφίᾳ	1		C'est le nom d'une femme. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	2	bb1s	figs-exclusive	τῇ ἀδελφῇ	1		Ici, le mot **our** n'est pas dans l'original, mais était nécessaire pour l'anglais, qui exige qu'un mot de relation indique à qui la personne est liée. Dans ce cas, **our** serait inclusif, reliant Apphia à Paul et aux lecteurs comme une sœur en Christ. Si votre langue l'exige, vous pouvez faire de même. Sinon, vous pouvez faire la même chose que l'original, qui dit, "la sœur". (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+PHM	1	2	hhpc	figs-metaphor	τῇ ἀδελφῇ	1		Paul utilise le terme **> sœur <** au sens figuré pour désigner une femme qui partage la même foi. Traduction alternative : "notre compatriote chrétienne" ou "notre sœur spirituelle" (Voir : rc://fr/ta/man/translate/figs-metaphor)
+
+PHM	1	2	e8su	figs-exclusive	ἡμῶν	1	our	Le mot **notre** désigne ici Paul et ceux qui l'accompagnent, mais pas le lecteur. (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+PHM	1	2	kyzo		Ἀπφίᾳ…Ἀρχίππῳ…τῇ…ἐκκλησίᾳ	1		La lettre est principalement adressée à Philémon. Il pourrait être trompeur de suggérer que Paul écrit à **> Apphia <**> , **> Archippus <**> , et **> l'église <** dans la maison de Philémon, au même niveau qu'il écrit à Philémon.
+
+PHM	1	2	sq44	translate-names	Ἀρχίππῳ	1	Archippus	C'est le nom d'un homme dans l'église avec Philémon. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	2	mnn5	figs-metaphor	τῷ συνστρατιώτῃ ἡμῶν	1	our fellow soldier	Paul parle ici d'Archippus comme si lui et Archippus étaient tous deux des soldats dans une armée. Il veut dire qu'Archippe travaille dur, comme Paul lui-même travaille dur, pour répandre l'Évangile. Traduction alternative : "notre compagnon de combat spirituel" ou "qui combat aussi le combat spirituel avec nous" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+PHM	1	2	uof9		καὶ τῇ κατ’ οἶκόν σου ἐκκλησίᾳ	1		Apphia et Archippe étaient probablement aussi membres de l'église qui se réunissait dans la maison de Philémon. Si le fait de les mentionner séparément laisse entendre qu'ils ne faisaient pas partie de l'église, vous pouvez inclure un mot comme "autre". Traduction alternative : "aux autres membres de l'église dans ta maison"
+
+PHM	1	3	r4nq	translate-blessing	χάρις ὑμῖν καὶ εἰρήνη, ἀπὸ Θεοῦ Πατρὸς ἡμῶν καὶ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ	1	Grace to you and peace from God our Father and our Lord Jesus Christ	Après avoir présenté les expéditeurs et les destinataires de la lettre, Paul donne une bénédiction. Utilisez une forme que les gens reconnaîtraient comme une bénédiction dans votre langue. Traduction alternative : "Que Dieu notre Père et le Seigneur Jésus-Christ vous donnent la grâce et la paix." (Voir : [[rc://en/ta/man/translate/translate-blessing]])
+
+PHM	1	3	iv7e	figs-abstractnouns	χάρις ὑμῖν καὶ εἰρήνη, ἀπὸ Θεοῦ Πατρὸς ἡμῶν καὶ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ.	1		Si vos lecteurs comprennent mal les noms abstraits **grâce** et **paix**, vous pouvez exprimer l'idée qui les sous-tend avec des adjectifs tels que "gracieux" et "paisible". Traduction alternative : "Que Dieu notre Père et notre Seigneur Jésus-Christ vous fasse grâce et vous rende paisible" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	3	e5z8	figs-exclusive	ἡμῶν…ἡμῶν	1	our	Le mot **notre** ici est inclusif, se référant à Paul, ceux qui sont avec lui, et le lecteur. (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+PHM	1	3	qglx	figs-yousingular	ὑμῖν	1		Ici, **vous** est au pluriel, se référant à tous les destinataires nommés dans les versets 1-2 (voir : [[rc://en/ta/man/translate/figs-yousingular]]).
+
+PHM	1	3	lh8a	guidelines-sonofgodprinciples	Πατρὸς	1	Father	C'est un titre important pour Dieu. (Voir : [[rc://en/ta/man/translate/guidelines-sonofgodprinciples]])
+
+PHM	1	4	puh8	figs-yousingular	σου	1		Ici, le mot **vous** est au singulier et se réfère à Philémon. (Voir : [[rc://en/ta/man/translate/figs-yousingular]])
+
+PHM	1	5	l3i2	figs-abstractnouns	ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν, ἣν ἔχεις πρὸς τὸν Κύριον Ἰησοῦν, καὶ εἰς πάντας τοὺς ἁγίους	1	figs-abstractnouns	Si vos lecteurs comprenaient mal les noms abstraits **amour** et **foi**, vous pourriez exprimer les idées qui les sous-tendent avec des verbes à la place. Traduction alternative : " entendre combien vous aimez et croyez au Seigneur Jésus et à tous les saints " (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	5	ojcu	writing-poetry	ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν, ἣν ἔχεις πρὸς τὸν Κύριον Ἰησοῦν, καὶ εἰς πάντας τοὺς ἁγίους	1	writing-poetry	Paul utilise ici une structure poétique dans laquelle la première et la dernière partie sont liées et la deuxième et la troisième partie sont liées. Paul a dit exactement la même chose dans Colossiens 1:4 sans la structure poétique. (Voir : [[rc://en/ta/man/translate/writing-poetry]])
+
+PHM	1	5	pf1y	figs-yousingular	σου…ἔχεις	1		Ici, les mots **votre** et **vous** sont au singulier et désignent Philémon. (Voir : [[rc://en/ta/man/translate/figs-yousingular]])
+
+PHM	1	6	mfrp	figs-explicit	ὅπως	1		Ici, **qui** introduit le contenu de la prière que Paul mentionne au verset 4. Au cas où vos lecteurs comprendraient mal ce lien, vous pouvez répéter ici l'idée de prière. Traduction alternative : "Je prie que" (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	6	t54l	figs-abstractnouns	ἡ κοινωνία τῆς πίστεώς σου	1	the fellowship of your faith	Le mot traduit **fraternité** signifie un partage ou un partenariat dans quelque chose. Paul entend probablement les deux sens, mais si vous devez choisir, cela pourrait signifier : (1) que Philémon partage la même foi en Christ que Paul et les autres. Traduction alternative : "(2) que Philémon est un partenaire de Paul et des autres dans leur travail pour le Christ. Autre traduction : "(3) que Philémon est un partenaire de Paul et des autres dans l'action pour le Christ.
+
+PHM	1	6	hcwp	figs-abstractnouns	ἡ κοινωνία τῆς πίστεώς σου, ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ἡμῖν εἰς Χριστόν.	1		Si vos lecteurs comprenaient mal ces noms abstraits **foi** et **connaissance**, vous pourriez exprimer l'idée derrière **foi** avec un verbe tel que "faire confiance" ou "croire", et **connaissance** avec un verbe tel que "savoir" ou "apprendre". Traduction alternative : "en faisant confiance au Messie en même temps que nous, vous pouvez devenir de plus en plus performant pour servir le Messie, en apprenant toutes les bonnes choses qu'il nous a données à utiliser pour lui" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	6	pxw1	figs-abstractnouns	ἐν ἐπιγνώσει παντὸς ἀγαθοῦ	1	may be effective for the knowledge of everything good	Cela pourrait signifier : (1) " et aura pour résultat que vous connaîtrez toutes les bonnes choses " (2) " afin que ceux avec qui vous partagez votre foi connaissent toutes les bonnes choses " Traduction alternative : "en connaissant toutes les bonnes choses" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]])
+
+PHM	1	6	n25e	figs-explicit	εἰς Χριστόν	1	in Christ	Si vos lecteurs comprenaient mal cette phrase, vous pourriez dire plus explicitement comment "tout ce qui est bon" est **pour le Christ**. Traduction alternative : "pour l'amour du Christ" ou "pour le bénéfice du Christ" (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	7	vyc7	figs-abstractnouns	χαρὰν γὰρ πολλὴν ἔσχον καὶ παράκλησιν	1		Si vos lecteurs comprenaient mal les noms abstraits **joie** et **confort**, vous pourriez exprimer l'idée qui les sous-tend avec des adjectifs. Traduction alternative : "Car vous m'avez rendu très joyeux et réconforté" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	7	xlp6	figs-abstractnouns	ἐπὶ τῇ ἀγάπῃ σου	1		Si vos lecteurs comprennent mal le nom abstrait **amour**, vous pouvez exprimer l'idée qui le sous-tend avec un verbe. Traduction alternative : "parce que vous aimez les gens" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]])
+
+PHM	1	7	shpv	figs-activepassive	τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ	1	the inward parts of the saints are being refreshed by you	Si votre langue n'utilise pas cette forme passive, vous pouvez l'énoncer à la forme active. Traduction alternative : "tu as rafraîchi les parties intérieures des saints" (Voir : [[rc://en/ta/man/translate/figs-activepassive]])
+
+PHM	1	7	aq4g	figs-metonymy	τὰ σπλάγχνα τῶν ἁγίων	1	the inward parts of the saints	Ici, **parties intérieures** désigne au sens figuré les émotions ou l'être intérieur d'une personne. Utilisez la figure qui est normale dans votre langue pour cela, comme "les cœurs" ou "les foies", ou donnez le sens ordinaire. Autre traduction : " les pensées et les sentiments des saints " (Voir : [[rc://en/ta/man/translate/figs-metonymy]]).
+
+PHM	1	7	z0ne	figs-metaphor	τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ	1		Ici, **être rafraîchi** désigne au sens figuré le sentiment d'encouragement ou de soulagement. Traduction alternative : " vous avez encouragé les saints " ou " vous avez aidé les croyants " (Voir : [[rc://en/ta/man/translate/figs-metaphor]]).
+
+PHM	1	7	m5ip	figs-metaphor	σοῦ, ἀδελφέ	1	you, brother	Paul a appelé Philémon **frère** parce qu'ils étaient tous deux croyants, et qu'il voulait souligner leur amitié. Traduction alternative : "toi, cher frère" ou "toi, cher ami" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+PHM	1	8	ayy1			0	Connecting Statement:	Paul commence son plaidoyer et la raison de sa lettre.
+
+PHM	1	8	fd84		πολλὴν ἐν Χριστῷ παρρησίαν	1	all boldness in Christ	Cela pourrait signifier : (1) "toute autorité à cause du Christ" (2) "tout courage à cause du Christ".
+
+PHM	1	8	x3nc	grammar-connect-logic-result	διό	1		Le mot **Donc** signale que ce que Paul vient de dire dans les versets 4-7 est la raison de ce qu'il va dire. Utilisez un mot de liaison ou un autre moyen que votre langue utilise pour signaler cette relation. Autre traduction : "A cause de cela" (Voir : [[rc://en/ta/man/translate/grammar-connect-logic-result]])
+
+PHM	1	9	l9fh	figs-abstractnouns	διὰ τὴν ἀγάπην	1	because of love	Paul ne dit pas pour qui est cet amour. S'il faut utiliser un verbe ici et dire qui aime qui, cela pourrait faire référence à : (1) l'amour mutuel entre lui et Philémon. Voir l'UST. (2) l'amour de Paul pour Philémon. Traduction alternative : "(3) l'amour de Philémon pour ses coreligionnaires. Autre traduction : "parce que je sais que tu aimes le peuple de Dieu" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]])
+
+PHM	1	9	sb31		δέσμιος Χριστοῦ Ἰησοῦ	1		Paul était en prison parce que les autorités ne voulaient pas qu'il prêche sur Jésus. Ils l'ont mis là pour l'arrêter et le punir. Cela ne signifie pas que Jésus avait mis Paul en prison. Autre traduction : "prisonnier pour l'amour de Jésus-Christ".
+
+PHM	1	10	lsr6	translate-names	Ὀνήσιμον	1		**Onesimus** est le nom d'un homme. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	10	hnhz	figs-explicit	Ὀνήσιμον	1		Le nom **Onésime** signifie "profitable" ou "utile". Si cela peut être utile à vos lecteurs, vous pouvez inclure cette information dans le texte ou dans une note de bas de page. (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	10	mui3	figs-metaphor	τέκνου, ὃν ἐγέννησα	1	whom I have fathered in my chains	Ici, **engendré** est une métaphore qui signifie qu'Onésime est devenu croyant lorsque Paul lui a enseigné le Christ. Traduction alternative : "qui a reçu une nouvelle vie et est devenu mon fils spirituel lorsque je lui ai enseigné le Christ" ou "qui est devenu un fils spirituel pour moi" (Voir : [[rc://en/ta/man/translate/figs-metaphor]]).
+
+PHM	1	10	nx1p	figs-metonymy	ἐν τοῖς δεσμοῖς	1	in my chains	Les prisonniers étaient souvent liés par des **chaînes**. Paul était en prison lorsqu'il a enseigné à Onésime et était encore en prison lorsqu'il a écrit cette lettre. Traduction alternative : "ici en prison" (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+PHM	1	12	t1kp		ὃν ἀνέπεμψά σοι	1	I sent him back to you	Paul envoyait probablement Onésime avec un autre croyant qui portait cette lettre.
+
+PHM	1	12	fdwn	figs-metaphor	τὰ ἐμὰ σπλάγχνα	1	my inward parts	L'expression **celui-ci est mon intérieur** est une métaphore des sentiments profonds envers quelqu'un. Paul disait cela à propos d'Onésime. Traduction alternative : " c'est une personne que j'aime beaucoup " ou " cette personne est très spéciale pour moi " (Voir : [[rc://en/ta/man/translate/figs-metaphor]]).
+
+PHM	1	12	yn1d	figs-metonymy	τὰ ἐμὰ σπλάγχνα	1		Ici, ** parties intérieures** est une figure pour le lieu des émotions d'une personne. Si votre langue possède une figure similaire, alors utilisez-la. Sinon, utilisez le langage courant. Autre traduction possible : "mon cœur" ou "mon foie" ou "mes sentiments les plus profonds" (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+PHM	1	13	t4xl		ἵνα ὑπὲρ σοῦ μοι διακονῇ	1	so that he might serve me on behalf of you	Paul sait que Philémon veut l'aider, et il suggère donc qu'un moyen d'y parvenir serait de permettre à Onésime de servir Paul en prison. Traduction alternative : "afin que, puisque tu ne peux pas être ici, il puisse m'aider" ou "afin qu'il puisse m'aider à ta place".
+
+PHM	1	13	bb3t	figs-metonymy	ἐν τοῖς δεσμοῖς	1	in the chains	Les prisonniers étaient souvent liés par des **chaînes**. Paul était en prison quand il a parlé à Onésime du Messie, et il était encore en prison quand il a écrit cette lettre. (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+PHM	1	13	vver	figs-explicit	ἐν τοῖς δεσμοῖς τοῦ εὐαγγελίου	1		Paul était en prison parce qu'il prêchait **l'évangile** publiquement. Vous pouvez le déclarer explicitement. Traduction alternative : " dans les chaînes qu'ils m'ont mises parce que je prêche l'évangile " (Voir : [[rc://en/ta/man/translate/figs-explicit]]).
+
+PHM	1	14	ngg8	figs-abstractnouns	ἵνα μὴ ὡς κατὰ ἀνάγκην τὸ ἀγαθόν σου ᾖ	1	but according to good will	Si vos lecteurs comprennent mal le nom abstrait **compulsion**, vous pouvez exprimer l'idée qui le sous-tend avec un verbe. Traduction alternative : "car je ne voulais pas que tu fasses cette bonne action parce que je t'ai ordonné de la faire" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	14	fg6l	figs-abstractnouns	ἀλλὰ κατὰ ἑκούσιον.	1		Si vos lecteurs comprennent mal le nom abstrait **will**, vous pouvez exprimer l'idée qui le sous-tend avec un verbe. Traduction alternative : " mais parce que vous vouliez le faire " ou " mais parce que vous avez librement choisi de faire ce qui est juste " (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]]).
+
+PHM	1	15	tcrd	figs-activepassive	τάχα γὰρ διὰ τοῦτο, ἐχωρίσθη πρὸς ὥραν, ἵνα	1		Si votre langue n'utilise pas cette forme passive, vous pouvez l'énoncer à la forme active. Traduction alternative : "Car peut-être la raison pour laquelle Dieu a éloigné Onésime de vous pendant un certain temps était-elle que" (Voir : [[rc://en/ta/man/translate/figs-activepassive]]).
+
+PHM	1	15	bx4q	figs-idiom	πρὸς ὥραν	1		Ici, l'expression **pendant une heure** est une expression idiomatique qui signifie "pendant un court moment". Si vos lecteurs comprenaient mal cette phrase, vous pourriez utiliser une idiome équivalente ou utiliser un langage simple. Autre traduction possible : "for this short time" (Voir : [[rc://en/ta/man/translate/figs-idiom]])
+
+PHM	1	16	l3e4		ὑπὲρ δοῦλον	1	better than a slave	Traduction alternative : "plus précieux qu'un esclave" ou "plus cher qu'un esclave".
+
+PHM	1	16	dg1w		οὐκέτι ὡς δοῦλον	1		Cela ne signifie pas qu'Onésime ne sera plus l'esclave de Philémon. Si vos lecteurs comprennent mal cette phrase, vous pouvez utiliser un mot tel que "juste" ou "seulement". Traduction alternative : "plus seulement comme esclave"
+
+PHM	1	16	bynb		ὑπὲρ δοῦλον	1		Traduction alternative : "plus précieux qu'un esclave"
+
+PHM	1	16	f8tz	figs-metaphor	ἀδελφὸν	1	a beloved brother	Ici, **frère** est une métaphore pour un compagnon de croyance. Traduction alternative, "frère spirituel" ou "frère en Christ" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+PHM	1	16	qxi0		ἀγαπητόν	1		Traduction alternative : "cher" ou "précieux"
+
+PHM	1	16	scj1		ἐν Κυρίῳ	1	in the Lord	Traduction alternative : "dans la communion de la fraternité par Jésus" ou "dans la communion des croyants dans le Seigneur".
+
+PHM	1	17	e1j2	grammar-connect-condition-fact	εἰ…με ἔχεις κοινωνόν	1	if you have me as a partner	Paul écrit de manière à faire croire qu'il est possible que Philémon ne considère pas que Paul est son partenaire, mais il sait que Philémon considère Paul comme son partenaire. C'est une façon d'amener Philémon à accepter une chose (que Paul est un partenaire) pour qu'il accepte l'autre chose (recevoir Onésime). Si votre langue ne dit pas qu'une chose est incertaine si elle est certaine ou vraie, et si vos lecteurs peuvent se méprendre et penser que ce que Paul dit n'est pas certain, alors vous pouvez traduire ses paroles comme une déclaration affirmative. Traduction alternative : "puisque vous m'avez pour partenaire" (Voir : [[rc://en/ta/man/translate/grammar-connect-condition-fact]])
+
+PHM	1	17	e0es	grammar-connect-logic-result	οὖν	1		**Donc** signifie que ce qui est venu avant ce mot est la raison de ce qui vient après. Il se peut que Paul ait l'intention que tout ce qui a précédé soit la raison, car ce mot indique également que Paul arrive maintenant au point principal de la lettre. Utilisez une méthode naturelle dans votre langue pour indiquer cette transition. Autre traduction : "A cause de toutes ces choses" (Voir : [[rc://en/ta/man/translate/grammar-connect-logic-result]])
+
+PHM	1	17	d56r	figs-ellipsis	προσλαβοῦ αὐτὸν ὡς ἐμέ.	1		Paul omet ici certains des mots dont une phrase aurait besoin dans de nombreuses langues pour être complète. Si vos lecteurs comprennent mal cette phrase, vous pouvez fournir ces mots à partir du contexte. Traduction alternative : "recevez-le comme vous me recevriez" (Voir : [[rc://en/ta/man/translate/figs-ellipsis]])
+
+PHM	1	18	nq4j	grammar-connect-condition-fact	εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει	1		Onésime a certainement fait du tort à Philémon en s'enfuyant, et il a probablement aussi volé certains biens de Philémon. Mais Paul déclare ces choses comme incertaines afin d'être poli. Si votre langue n'utilise pas une déclaration conditionnelle de cette façon, utilisez une manière plus naturelle de le dire. Traduction alternative : "Mais tout ce qu'il a pris ou tout le mal qu'il vous a fait" (Voir : [[rc://en/ta/man/translate/grammar-connect-condition-fact]])
+
+PHM	1	18	w4ys		εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει	1		Ces deux expressions signifient des choses similaires, bien que **> vous a fait du tort <** soit plus général que **> vous doit <**> . Si ce serait plus naturel dans votre langue, vous pouvez mettre la phrase plus générale en deuxième position. Traduction alternative : "Mais s'il vous doit quelque chose ou vous a fait du tort de quelque manière que ce soit".
+
+PHM	1	18	j3ou		τοῦτο ἐμοὶ ἐλλόγα.	1		Traduction alternative : "Je prendrai la responsabilité de vous rembourser" ou "dites que c'est moi qui vous dois quelque chose".
+
+PHM	1	19	wb53		ἐγὼ Παῦλος ἔγραψα τῇ ἐμῇ χειρί	1	I, Paul, write this with my own hand	Paul a écrit cette partie de sa **> propre main <** afin que Philémon sache que ces paroles étaient vraiment de Paul, et que Paul allait vraiment le payer. Il a utilisé le passé ici parce que l'action d'écrire serait dans le passé lorsque Philémon lirait la lettre. Utilisez le temps qui est le plus naturel dans votre langue. Autre traduction : "Moi, Paul, j'écris ceci moi-même."
+
+PHM	1	19	gn6c	figs-irony	ἵνα μὴ λέγω σοι	1	in order not to say to you	Paul dit qu'il ne dira pas quelque chose à Philémon en le disant. C'est une façon polie de souligner la vérité de ce que Paul lui dit. Si votre langue ne permet pas d'utiliser une telle ironie, utilisez une expression plus naturelle. Traduction alternative : "Je n'ai pas besoin de vous le rappeler" ou "Vous le savez déjà" (Voir : [[rc://en/ta/man/translate/figs-irony]])
+
+PHM	1	19	st7e	figs-explicit	καὶ σεαυτόν μοι προσοφείλεις	1	you also owe me your own self	Paul laisse entendre que tout ce qu'Onésime ou Paul devait à Philémon était annulé par la somme plus importante que Philémon devait à Paul, à savoir la vie même de Philémon. La raison pour laquelle Philémon devait sa vie à Paul peut être explicitée. Traduction alternative : "tu me dois même ta propre vie" ou "tu me dois beaucoup plus parce que je t'ai sauvé la vie" ou "tu me dois ta propre vie parce que je t'ai parlé de Jésus" (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	20	mw03	figs-metaphor	ἀδελφέ	1		Ici, **frère** est une métaphore pour désigner un coreligionnaire. Traduction alternative : "frère spirituel" ou "frère en Christ" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+PHM	1	20	cqd0	figs-metaphor	ἐν Κυρίῳ	1		Voyez comment vous avez traduit **dans le Seigneur** au verset 16. Cette métaphore fait référence au fait d'être un croyant en Jésus et signifie la même chose que **en Christ**. Autre traduction possible : " comme vous servez le Seigneur " ou " parce que nous sommes des compagnons de croyance dans le Seigneur " (voir : [[rc://en/ta/man/translate/figs-metaphor]]).
+
+PHM	1	20	xp0b	figs-explicit	ἀνάπαυσόν μου τὰ σπλάγχνα ἐν Χριστῷ	1	refresh my inward parts in Christ	La manière dont Paul voulait que Philémon le rafraîchisse peut être explicitée. Traduction alternative : "rafraîchissez mes parties intérieures en Christ en acceptant Onésime avec bonté" (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+PHM	1	20	j8lh	figs-metaphor	ἀνάπαυσόν μου τὰ σπλάγχνα	1	refresh my inward parts	Ici, **rafraîchir** est une métaphore pour réconforter ou encourager. Traduction alternative : "encouragez-moi" ou "réconfortez-moi" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+PHM	1	20	kmpp	figs-metonymy	ἀνάπαυσόν μου τὰ σπλάγχνα	1	refresh my inward parts	Ici, **parties intérieures** est une métonymie pour les sentiments, les pensées ou l'être intérieur d'une personne. Traduction alternative : "m'encourager" ou "me réconforter" (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+PHM	1	21	azje	figs-abstractnouns	πεποιθὼς τῇ ὑπακοῇ σου	1	refresh my inward parts	Si vos lecteurs comprenaient mal les noms abstraits **confiance** et **obéissance**, vous pourriez exprimer l'idée qui les sous-tend avec des verbes. Traduction alternative : "Parce que j'ai confiance que vous allez obéir" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]])
+
+PHM	1	21	lxxi		ἔγραψά σοι	1	refresh my inward parts	Paul a utilisé le passé ici parce que l'action d'écrire serait dans le passé lorsque Philémon lirait la lettre. Utilisez le temps qui est le plus naturel dans votre langue. Autre traduction : "Je t'écris"
+
+PHM	1	22	xpn6	checking/headings		0	Connecting Statement:	Ici, Paul termine sa lettre et donne des instructions finales à Philémon et une bénédiction sur Philémon et sur les croyants qui se sont réunis pour l'église dans la maison de Philémon. Si vous utilisez des titres de section, vous pouvez en placer un ici avant le verset 22. Titre suggéré : "Instruction finale et bénédiction" (Voir : [[rc://en/ta/man/checking/headings]])
+
+PHM	1	22	bx62	grammar-connect-time-simultaneous	ἅμα	1	at the same time	Le mot traduit **en même temps** indique que Paul veut que Philémon fasse autre chose pour lui pendant qu'il fait la première chose. Vous pouvez rendre cela clair dans votre traduction avec un mot ou une phrase de liaison appropriée. Traduction alternative : "tout en faisant cela" ou "en plus de cela" (Voir : [[rc://en/ta/man/translate/grammar-connect-time-simultaneous]])
+
+PHM	1	22	ctr4		χαρισθήσομαι ὑμῖν	1	I will be given back to you	Traduction alternative : "Ceux qui me gardent en prison me libéreront pour que je puisse aller vers toi."
+
+PHM	1	22	mzr0		ἑτοίμαζέ μοι ξενίαν	1	I will be given back to you	Le mot traduit **> chambre d'hôtes <** fait référence à toute hospitalité offerte à un invité. Le type d'espace n'est donc pas précisé. Traduction alternative : "préparez aussi une place pour moi dans votre maison".
+
+PHM	1	22	lnw9		διὰ τῶν προσευχῶν ὑμῶν	1	I will be given back to you	Traduction alternative : "Dieu répondra à vos prières ainsi"
+
+PHM	1	22	p2u0	figs-activepassive	χαρισθήσομαι ὑμῖν.	1	I will be given back to you	Si vos lecteurs comprennent mal cette forme passive, vous pouvez l'exprimer avec une forme active. Traduction alternative : "Dieu me ramènera à vous" ou "ceux qui me gardent en prison me libéreront pour que je puisse venir à vous". (Voir : [[rc://en/ta/man/translate/figs-activepassive]])
+
+PHM	1	22	o06s	figs-you	ὑμῶν…ὑμῖν	1	I will be given back to you	Les mots **votre** et **vous** ici sont au pluriel, se référant à Philémon et à tous les croyants qui se réunissaient dans sa maison. (Voir : [[rc://en/ta/man/translate/figs-you]]).
+
+PHM	1	23	x2d8	translate-names	Ἐπαφρᾶς	1	Epaphras	**Epaphras** était le nom d'un homme qui était un compagnon de croyance et prisonnier avec Paul. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	23	f0b6		ἐν Χριστῷ Ἰησοῦ	1	Epaphras	fdIci, **> dans le Christ Jésus <** signifie quelque chose de similaire aux expressions "dans le Seigneur" et "dans le Christ" au verset 20. Voyez comment vous les avez traduites là. Traduction alternative : "qui est ici avec moi parce qu'il sert le Christ Jésus".
+
+PHM	1	24	i5gc	translate-names	Μᾶρκος, Ἀρίσταρχος, Δημᾶς, Λουκᾶς	1	Mark…Aristarchus…Demas…Luke	Ce sont des noms d'hommes. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+PHM	1	24	uc6n	figs-ellipsis	Μᾶρκος, Ἀρίσταρχος, Δημᾶς, Λουκᾶς	1	Mark…Aristarchus…Demas…Luke	Paul omet ici certains des mots dont une phrase aurait besoin dans de nombreuses langues pour être complète. Si vos lecteurs comprennent mal cette phrase, vous pouvez fournir ces mots à partir du contexte. Traduction alternative : "comme Marc, Aristarque, Démas et Luc, mes compagnons de travail" ou "Marc, Aristarque, Démas et Luc, mes compagnons de travail, vous saluent aussi" (Voir : [[rc://en/ta/man/translate/figs-ellipsis]])
+
+PHM	1	24	gf6e		οἱ συνεργοί μου	1	my fellow workers	Traduction alternative : "les hommes qui travaillent avec moi" ou "qui travaillent tous avec moi".
+
+PHM	1	25	apvl	figs-synecdoche	μετὰ τοῦ πνεύματος ὑμῶν	1	be with your spirit	Les mots **votre esprit** sont une synecdoque et représentent les personnes elles-mêmes. Paul fait référence à Philémon et à tous ceux qui se sont réunis dans sa maison. (Voir : [[rc://en/ta/man/translate/figs-synecdoche]])
+
+PHM	1	25	e35h	figs-abstractnouns	ἡ χάρις τοῦ Κυρίου ἡμῶν, Ἰησοῦ Χριστοῦ	1	be with your spirit	Si vos lecteurs comprennent mal le nom abstrait **grâce**, vous pouvez exprimer l'idée qui le sous-tend avec un adjectif ou un verbe. Traduction alternative : "May our Lord Jesus Christ be gracious to you and" ou "May our Lord Jesus Christ be kind to you and" (Voir : [[rc://en/ta/man/translate/figs-abstractnouns]])
+
+PHM	1	25	jou6	figs-you	ὑμῶν	1	be with your spirit	Le mot **votre** ici est pluriel et se réfère à Philémon et à tous ceux qui se sont réunis dans sa maison. Traduction alternative : "vos esprits" (Voir : [[rc://en/ta/man/translate/figs-you]])

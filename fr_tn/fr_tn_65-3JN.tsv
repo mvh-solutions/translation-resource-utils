@@ -1,0 +1,95 @@
+Book	Chapter	Verse	ID	SupportReference	OrigQuote	Occurrence	GLQuote	OccurrenceNote
+
+3JN	front	intro	kwv9			0		Introduction à 3 Jean\n\n### Première partie : Introduction générale\n\n### Plan du livre de 3 Jean\n\n1. Introduction (1:1)\n2. Encouragements et instructions pour faire preuve d'hospitalité (1:2-8)\n3. Diotrèphe et Démétrius (1:9-12)\N4. Conclusion (1:13-14)\n\N### Qui a écrit le livre de 3 Jean ? \n\NLa lettre ne donne pas le nom de l'auteur. L'auteur s'est seulement identifié comme **L'ancien** (1:1). La lettre a probablement été écrite par l'apôtre Jean vers la fin de sa vie. De quoi parle le livre de 3 Jean ? Jean a écrit cette lettre à un croyant nommé Gaïus. Il demande à Gaïus d'être hospitalier envers les autres croyants qui voyagent dans sa région. Comment traduire le titre de ce livre ? Les traducteurs peuvent choisir d'appeler ce livre par son titre traditionnel, "3 Jean" ou "Troisième Jean". Ou bien ils peuvent choisir un titre plus clair, tel que "La troisième lettre de Jean" ou "La troisième lettre que Jean a écrite". (Voir : [[rc://en/ta/man/translate/translate-names]])\n\n## Partie 2 : Concepts religieux et culturels importants\n\n### Qu'est-ce que l'hospitalité ? \n\nL'hospitalité était un concept important dans le Proche-Orient ancien. Il était important d'être amical envers les étrangers ou les marginaux et de leur apporter de l'aide s'ils en avaient besoin. Dans 2 Jean, Jean décourage les chrétiens de faire preuve d'hospitalité envers les faux enseignants. Dans 3 Jean, Jean encourage les chrétiens à faire preuve d'hospitalité envers les enseignants fidèles. Partie 3 : Questions importantes de traduction. Comment l'auteur utilise-t-il les relations familiales dans sa lettre ? L'auteur utilise les termes **frère** et **enfants** d'une manière qui peut prêter à confusion. Les Écritures ont souvent utilisé le terme **frères** pour faire référence aux Juifs. Mais dans cette lettre, Jean a utilisé ce mot pour se référer aux chrétiens. De plus, Jean a appelé certains croyants ses **enfants**. Il s'agit de croyants à qui il a appris à obéir au Christ. Jean a également utilisé le terme **Gentil** d'une manière qui peut prêter à confusion. Les Écritures utilisent souvent le terme **Gentil** pour désigner les personnes qui ne sont pas juives. Mais dans cette lettre, Jean utilise ce mot pour désigner ceux qui ne croient pas en Jésus.
+
+3JN	1	1	rni7	figs-you		0	General Information:	Ceci est une lettre personnelle de Jean à Gaius. Toutes les occurrences de **vous** et **votre** se réfèrent à Gaius et sont au singulier. (Voir : [[rc://en/ta/man/translate/figs-you]])
+
+3JN	1	1	w99t	figs-explicit	ὁ πρεσβύτερος	1	The elder	**L'ancien** fait référence à Jean, l'apôtre et disciple de Jésus. Il se désigne lui-même comme **l'ancien** soit en raison de son âge avancé, soit parce qu'il est un responsable de l'église. Le nom de l'auteur peut être explicité : "Moi, Jean l'ancien, j'écris" (voir : [[rc://en/ta/man/translate/figs-explicit]]).
+
+3JN	1	1	lls6	translate-names	Γαΐῳ	1	to … Gaius	Il s'agit d'un coreligionnaire à qui Jean écrit cette lettre. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+3JN	1	1	mp9w		ὃν ἐγὼ ἀγαπῶ ἐν ἀληθείᾳ	1	whom I love in truth	Traduction alternative : "que j'aime vraiment"
+
+3JN	1	2	v6dv		περὶ πάντων εὔχομαί σε εὐοδοῦσθαι καὶ ὑγιαίνειν	1	I pray concerning everything for you to prosper and to be healthy	Traduction alternative : "Je prie pour que vous puissiez réussir en toutes choses et être en bonne santé".
+
+3JN	1	2	i269		καθὼς εὐοδοῦταί σου ἡ ψυχή	1	just as your soul prospers	Traduction alternative : "tout comme vous vous portez bien spirituellement"
+
+3JN	1	3	b4zh		ἐρχομένων ἀδελφῶν	1	when brothers came	Ces personnes étaient probablement toutes des hommes. Autre traduction : "quand les autres croyants sont venus"
+
+3JN	1	3	y7q3	figs-metaphor	σὺ ἐν ἀληθείᾳ περιπατεῖς	1	you are walking in truth	Ici, **marcher** sur un chemin est une métaphore de la façon dont une personne vit sa vie. Traduction alternative : "vous vivez votre vie selon la vérité de Dieu" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+3JN	1	4	w79m	figs-metaphor	τὰ ἐμὰ τέκνα	1	my children	Jean parle de ceux à qui il a enseigné à croire en Jésus comme s'ils étaient ses enfants. Cela souligne son amour et son intérêt pour eux. Il se pourrait aussi qu'il les ait lui-même conduits au Seigneur. Traduction alternative : "mes enfants spirituels" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+3JN	1	5	vl13			0	Connecting Statement:	Le but de Jean en écrivant cette lettre est de féliciter Gaius pour avoir pris soin des personnes qui voyagent pour servir Dieu ; ensuite, il parle de deux personnes, une mauvaise et une bonne.
+
+3JN	1	5	tmh1		ἀγαπητέ	1	Beloved	Ici, **> Bien-aimé <** est utilisé comme un terme d'affection pour Gaius en tant que compagnon de croyance. Utilisez ici un terme pour désigner un ami cher dans votre langue.
+
+3JN	1	5	gs6x		πιστὸν ποιεῖς	1	you are doing a faithful thing	Traduction alternative : "vous faites ce qui est fidèle à Dieu" ou "vous êtes fidèle à Dieu".
+
+3JN	1	5	g4gz		ὃ, ἐὰν ἐργάσῃ εἰς τοὺς ἀδελφοὺς καὶ τοῦτο ξένους	1	whenever you work for the brothers, and this for strangers	Traduction alternative : "lorsque vous aidez vos coreligionnaires, en particulier ceux que vous ne connaissez pas".
+
+3JN	1	6	wzf6		οἳ ἐμαρτύρησάν σου τῇ ἀγάπῃ ἐνώπιον ἐκκλησίας	1	who have borne witness of your love in the presence of the church	Ces mots décrivent les "étrangers" (verset 5). "des étrangers qui ont raconté aux croyants de l'église combien tu les as aimés".
+
+3JN	1	6	pb64		οὓς καλῶς ποιήσεις, προπέμψας	1	You do well to send them on their journey	Jean félicite Gaïus pour sa pratique habituelle d'aider les croyants qui voyagent. Traduisez cela d'une manière qui montre que c'est quelque chose que Gaius fait continuellement.
+
+3JN	1	7	d8y1	figs-metonymy	ὑπὲρ γὰρ τοῦ ὀνόματος ἐξῆλθον	1	because they went out for the sake of the name	Ici, **le nom** fait référence à Jésus. Cela pourrait signifier : (1) ils ont quitté l'endroit où ils étaient afin de parler de Jésus aux autres. (2) ils ont quitté l'endroit où ils étaient parce que d'autres les ont forcés à partir à cause de leur croyance en Jésus. (3) les deux à la fois. Traduction alternative : "depuis qu'ils sont sortis pour parler de Jésus aux gens" (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+3JN	1	7	yzc8		μηδὲν λαμβάνοντες	1	receiving nothing	Cela pourrait signifier : (1) les incroyants ne les ont pas aidés en leur donnant quoi que ce soit. (2) ils n'ont accepté aucune aide ou cadeau de la part des incroyants.
+
+3JN	1	7	hk3p		τῶν ἐθνικῶν	1	the Gentiles	Ici, **> Gentils <** ne signifie pas seulement les personnes qui ne sont pas juives. Il se réfère à toute personne qui n'a pas confiance en Jésus.
+
+3JN	1	8	d2l7		ἵνα συνεργοὶ γινώμεθα τῇ ἀληθείᾳ	1	so that we become fellow workers for the truth	Traduction alternative : "afin que nous coopérions avec eux pour annoncer la vérité de Dieu aux gens".
+
+3JN	1	8	ab01	figs-personification	τῇ ἀληθείᾳ	1	for the truth	On parle ici de **la vérité** comme s'il s'agissait d'une personne pour laquelle Jean, Gaïus et les autres travaillaient. Cela pourrait faire référence à : (1) "le vrai message de Dieu" comme dans l'UST. (2) "Dieu, qui est la Vérité". (Voir : [[rc://en/ta/man/translate/figs-personification]])
+
+3JN	1	9	tm9q		τῇ ἐκκλησίᾳ	1	to the church	Ici, **> l'église <** fait référence à Gaius et au groupe de croyants qui se réunissaient pour adorer Dieu.
+
+3JN	1	9	cz9d	translate-names	Διοτρέφης	1	Diotrephes	**Diotrephes** était un membre de la congrégation. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+3JN	1	9	s82w		ὁ φιλοπρωτεύων αὐτῶν	1	who loves to be first among them	Traduction alternative : "qui aime être le plus important d'entre eux" ou "qui aime agir comme s'il était leur chef".
+
+3JN	1	9	dp1v	figs-exclusive	ἡμᾶς	1	us	Le mot **nous** est exclusif ; il fait référence à Jean et à ceux qui sont avec lui et n'inclut pas Gaius. Il peut également s'agir d'une manière polie pour Jean de se désigner lui-même. Voir l'UST. (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+3JN	1	9	rrgg	figs-metonymy	Διοτρέφης, οὐκ ἐπιδέχεται ἡμᾶς	1	Diotrophes … does not receive us	Dire **Diotrèphe ... ne nous accepte pas** ne signifie pas qu'il a physiquement rejeté Jean et ceux qui sont avec Jean, mais c'est une façon plus courte de dire qu'il n'accepte pas l'autorité de Jean ou les instructions que Jean donne. Voir l'UST. (Voir : [[rc://en/ta/man/translate/figs-metonymy]])
+
+3JN	1	10	f6qj		λόγοις πονηροῖς φλυαρῶν ἡμᾶς	1	accusing us with evil words	Traduction alternative : "c'est-à-dire qu'il dit des choses mauvaises sur nous qui ne sont certainement pas vraies".
+
+3JN	1	10	wi6a		οὔτε αὐτὸς ἐπιδέχεται τοὺς ἀδελφοὺς	1	he does not receive the brothers	Traduction alternative : "il n'accueille pas les autres croyants"
+
+3JN	1	10	it7p	figs-ellipsis	τοὺς βουλομένους κωλύει	1	stops those who are willing	Il y a des mots oubliés mais ils sont compris de la clause précédente. Traduction alternative : "il arrête ceux qui veulent accueillir les croyants" (Voir : [[rc://en/ta/man/translate/figs-ellipsis]])
+
+3JN	1	10	g98b		ἐκ τῆς ἐκκλησίας ἐκβάλλει	1	puts them out of the church	Traduction alternative : "les oblige à quitter le groupe de croyants"
+
+3JN	1	11	a3z8		ἀγαπητέ	1	Beloved	Ici, **> Bien-aimé <** est utilisé comme un terme d'affection pour Gaius en tant que compagnon de croyance. Voyez comment vous avez traduit cela dans [3 Jean 1:5](../01/05.md).
+
+3JN	1	11	pv24		μὴ μιμοῦ τὸ κακὸν	1	do not imitate what is evil	Traduction alternative : "ne pas copier les mauvaises choses que les gens font"
+
+3JN	1	11	sz2h	figs-ellipsis	ἀλλὰ τὸ ἀγαθόν	1	but what is good	Il y a des mots oubliés mais ils sont compris de la clause précédente. Traduction alternative : "mais imitez les bonnes choses que les gens font" (Voir : [[rc://en/ta/man/translate/figs-ellipsis]])
+
+3JN	1	11	cm8t		ἐκ τοῦ Θεοῦ ἐστιν	1	is from God	Traduction alternative : "vient de Dieu"
+
+3JN	1	11	zan2	figs-metaphor	οὐχ ἑώρακεν τὸν Θεόν	1	has not seen God	"Voir" est ici une métaphore qui représente la connaissance ou la compréhension. Traduction alternative : "n'a pas fait l'expérience de Dieu" ou "n'a pas cru en Dieu" (Voir : [[rc://en/ta/man/translate/figs-metaphor]])
+
+3JN	1	12	pl7i	figs-activepassive	Δημητρίῳ μεμαρτύρηται ὑπὸ πάντων	1	Demetrius is borne witness to by all	Si votre langue n'utilise pas cette forme passive, vous pouvez l'énoncer à la forme active. Traduction alternative : "Tous ceux qui connaissent Démétrius témoignent de lui" ou "Tout croyant qui connaît Démétrius parle en bien de lui" (Voir : [[rc://en/ta/man/translate/figs-activepassive]]).
+
+3JN	1	12	m22h	translate-names	Δημητρίῳ	1	Demetrius	**Démétrius** est probablement un homme que Jean veut que Gaius et la congrégation accueillent lorsqu'il vient lui rendre visite. Il peut être la personne qui remet cette lettre. (Voir : [[rc://en/ta/man/translate/translate-names]])
+
+3JN	1	12	rad4	figs-personification	ὑπὸ αὐτῆς τῆς ἀληθείας	1	by the truth itself	Ici, **la vérité** est décrite comme si c'était une personne qui parlait. Ici, **la vérité** fait référence au "vrai message de Dieu". Traduction alternative : "quiconque connaît la vérité sait qu'il est une bonne personne" (Voir : [[rc://en/ta/man/translate/figs-personification]]).
+
+3JN	1	12	mftm	figs-ellipsis	ὑπὸ αὐτῆς τῆς ἀληθείας	1	by the truth itself	Certains mots ont été omis dans cette clause, mais ils sont compris dans la clause précédente. Traduction alternative : "il est témoigné par la vérité elle-même" (Voir : [[rc://en/ta/man/translate/figs-ellipsis]])
+
+3JN	1	12	s712	figs-explicit	καὶ ἡμεῖς δὲ μαρτυροῦμεν	1	we also bear witness	Ce que Jean confirme est implicite et peut être rendu explicite ici. Traduction alternative : "nous parlons aussi en bien de Démétrius" (Voir : [[rc://en/ta/man/translate/figs-explicit]])
+
+3JN	1	12	a16a	figs-exclusive	ἡμεῖς	1	we	Ici, **nous** se réfère à Jean et à ceux qui sont avec lui et n'inclut pas Gaius. (Voir : [[rc://en/ta/man/translate/figs-exclusive]])
+
+3JN	1	13	v27c			0	General Information:	C'est la fin de la lettre de Jean à Gaius. Dans cette section, il mentionne qu'il est venu le voir et termine par une salutation.
+
+3JN	1	13	am6k	figs-doublet	οὐ θέλω διὰ μέλανος καὶ καλάμου σοι γράφειν	1	I do not wish to write them to you with ink and pen	Il s'agit d'un doublet, car **encre et plume** représentent le processus d'écriture qui a déjà été mentionné. Jean ne dit pas qu'il voudrait les écrire avec autre chose que de l'encre et une plume. Il dit qu'il ne souhaite pas du tout écrire ces autres choses. Traduction alternative : "Je ne veux pas t'écrire à leur sujet" (Voir : [[rc://en/ta/man/translate/figs-doublet]])
+
+3JN	1	14	r8i4	figs-idiom	στόμα πρὸς στόμα	1	mouth to mouth	Ici, **bouche à bouche** est une expression idiomatique signifiant "en personne". Traduction alternative : "en personne" (Voir : [[rc://en/ta/man/translate/figs-idiom]])
+
+3JN	1	15	v8yj		εἰρήνη σοι	1	Peace to you	Traduction alternative : "Que Dieu vous donne la paix"
+
+3JN	1	15	mhs1		ἀσπάζονταί σε οἱ φίλοι	1	The friends greet you	Traduction alternative : "Les croyants ici présents vous saluent"
+
+3JN	1	15	lq8r		ἀσπάζου τοὺς φίλους κατ’ ὄνομα	1	Greet the friends by name	Traduction alternative : "Saluez chacun des croyants présents pour moi"
