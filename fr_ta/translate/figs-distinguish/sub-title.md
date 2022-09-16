@@ -1,0 +1,1 @@
+Lorsqu'une phrase est utilisée avec un nom, quelle est la différence entre les phrases qui distinguent le nom des autres et les phrases qui informent ou rappellent simplement ?

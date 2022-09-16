@@ -1,0 +1,1 @@
+Quels types de choses dois-je vérifier ?

@@ -1,0 +1,1 @@
+Vérification de l'exactitude de la traduction

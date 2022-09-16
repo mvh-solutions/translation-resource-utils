@@ -1,0 +1,1 @@
+Phrases du nom générique

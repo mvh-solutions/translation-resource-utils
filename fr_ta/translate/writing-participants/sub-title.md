@@ -1,0 +1,1 @@
+Pourquoi les lecteurs de ma traduction ne peuvent-ils pas comprendre sur qui l'auteur écrivait ?

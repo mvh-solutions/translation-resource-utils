@@ -1,0 +1,1 @@
+Rendre explicites les connaissances présumées et les informations implicites

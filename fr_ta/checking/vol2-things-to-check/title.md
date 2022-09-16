@@ -1,0 +1,1 @@
+Types d'éléments à vérifier

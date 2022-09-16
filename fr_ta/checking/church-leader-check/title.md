@@ -1,0 +1,1 @@
+Vérification de l'exactitude par les dirigeants de l'Église

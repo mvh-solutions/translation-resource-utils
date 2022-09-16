@@ -1,0 +1,1 @@
+Comment traduire la relation raison-résultat ?

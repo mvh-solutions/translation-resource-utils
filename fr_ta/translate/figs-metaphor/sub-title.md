@@ -1,0 +1,1 @@
+Qu'est-ce qu'une métaphore et comment puis-je traduire un passage de la Bible qui en contient une ?

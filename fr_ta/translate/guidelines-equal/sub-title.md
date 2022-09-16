@@ -1,0 +1,1 @@
+Qu'est-ce qu'une traduction égale ?

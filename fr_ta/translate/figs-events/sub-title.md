@@ -1,0 +1,1 @@
+Pourquoi certains événements ne sont-ils pas énumérés dans l'ordre où ils se sont produits, et comment puis-je les traduire ?

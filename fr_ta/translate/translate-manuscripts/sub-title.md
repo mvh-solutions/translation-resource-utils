@@ -1,0 +1,1 @@
+Y a-t-il plus d'informations sur le texte en langue originale ?

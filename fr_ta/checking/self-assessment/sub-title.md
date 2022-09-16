@@ -1,0 +1,1 @@
+Comment puis-je évaluer objectivement la qualité de la traduction ?

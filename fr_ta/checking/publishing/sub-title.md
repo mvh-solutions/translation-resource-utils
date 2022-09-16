@@ -1,0 +1,1 @@
+Comment notre traduction peut-elle être publiée sur Door43 et unfoldingWord ?

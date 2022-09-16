@@ -1,0 +1,1 @@
+Imagerie biblique - Métonymies courantes

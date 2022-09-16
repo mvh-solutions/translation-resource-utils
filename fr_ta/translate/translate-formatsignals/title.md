@@ -1,0 +1,1 @@
+Signaux de formatage unfoldingWord® Texte littéral (ULT) et unfoldingWord® Texte simplifié (UST)

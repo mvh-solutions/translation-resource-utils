@@ -1,0 +1,1 @@
+Quels sont les différents types de translationNotes ?

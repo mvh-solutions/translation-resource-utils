@@ -1,0 +1,1 @@
+L'orthographe des mots de la traduction est-elle cohérente ?

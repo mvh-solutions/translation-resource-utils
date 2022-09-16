@@ -1,0 +1,1 @@
+Comment puis-je montrer que la communauté approuve la traduction ?

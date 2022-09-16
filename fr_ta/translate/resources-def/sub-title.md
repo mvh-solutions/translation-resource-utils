@@ -1,0 +1,1 @@
+Quelle décision de traduction dois-je prendre lorsque je vois une définition dans les notes ?

@@ -1,0 +1,1 @@
+Pourquoi certaines notes de traduction semblent-elles répéter une note précédente ?

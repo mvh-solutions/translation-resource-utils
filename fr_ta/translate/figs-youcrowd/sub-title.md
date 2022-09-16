@@ -1,0 +1,1 @@
+Comment traduire les pronoms singuliers qui font référence à des groupes de personnes ?

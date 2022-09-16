@@ -1,0 +1,1 @@
+Comment fonctionne l'ordre des mots en hébreu biblique ?

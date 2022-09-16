@@ -1,0 +1,1 @@
+Comment savoir si la translationNote porte sur une figure de style ?

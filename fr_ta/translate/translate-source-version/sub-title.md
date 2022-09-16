@@ -1,0 +1,1 @@
+Comment les numéros de version peuvent-ils m'aider à sélectionner un texte source ?

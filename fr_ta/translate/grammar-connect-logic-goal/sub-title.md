@@ -1,0 +1,1 @@
+Comment traduire une relation d'objectif (but) ?

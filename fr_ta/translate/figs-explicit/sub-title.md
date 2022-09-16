@@ -1,0 +1,1 @@
+Comment puis-je être sûr que ma traduction communique les connaissances supposées et les informations implicites en même temps que les informations explicites du message original ?

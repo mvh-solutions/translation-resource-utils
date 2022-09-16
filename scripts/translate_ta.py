@@ -33,15 +33,15 @@ for subdir1 in os.listdir(inDir):
     if not(os.path.exists(os.path.join(outDir, subdir1))):
         os.makedirs(os.path.join(outDir, subdir1))
     for fileLeaf in os.listdir(os.path.join(inDir, subdir1)):
-        if os.path.exists(os.path.join(outDir, subdir1, fileLeaf)):
-            print("   Skipping")
-            continue
         inPath = os.path.join(inDir, subdir1, fileLeaf)
         outPath = os.path.join(outDir, subdir1, fileLeaf)
-
+        if os.path.exists(outPath):
+            if os.path.getsize(outPath) == 0:
+                print("    Size 0 - replacing")
+            else:
+                print("   Skipping")
+                continue
         url = 'https://api.deepl.com/v2/translate'
-
-        output = ""
         with open(os.path.abspath(inPath), 'r') as f:
             linkRegex = r'\[\[.*?\]\]|\[[^\]]*?\]\([^\)]*?\)'
             startMarkdownRegex = r'([_*]{2})(\S)'
@@ -75,19 +75,19 @@ for subdir1 in os.listdir(inDir):
                 print('Bad response code: retrying')
                 time.sleep(5)
                 response = requests.post(url, data=args)
-                if response.status_code != 200:
-                    sys.stderr.write("Response code {0} from deepL at input line {1}\n".format(response.status_code, lineNo))
-                    sys.exit(1)
-            else:
-                srcText = json.loads(response.text)['translations'][0]['text']
-                matchIndex = 0
-                for match in matches:
-                    matchRegex = re.escape('[[') + str(matchIndex) + re.escape(']]')
-                    srcText = re.sub(matchRegex, match, srcText, 1)
-                    matchIndex += 1
-                    srcText = re.sub(endMarkdownRegex2, "\\1\\2", srcText)
-                    srcText = re.sub(startMarkdownRegex2, "\\1\\2", srcText)
-                    output = srcText
-
+            if response.status_code != 200:
+                sys.stderr.write("Response code {0} from deepL at input line {1}\n".format(response.status_code, lineNo))
+                sys.exit(1)
+            srcText = json.loads(response.text)['translations'][0]['text']
+            if len(srcText) == 0:
+                print("    Translated text is zero length!")
+                continue
+            matchIndex = 0
+            for match in matches:
+                matchRegex = re.escape('[[') + str(matchIndex) + re.escape(']]')
+                srcText = re.sub(matchRegex, match, srcText, 1)
+                matchIndex += 1
+                srcText = re.sub(endMarkdownRegex2, "\\1\\2", srcText)
+                srcText = re.sub(startMarkdownRegex2, "\\1\\2", srcText)
             with open(os.path.abspath(outPath), "w") as f:
-                f.write(output)
+                f.write(srcText)

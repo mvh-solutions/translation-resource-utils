@@ -1,0 +1,1 @@
+Actif ou passif

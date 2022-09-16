@@ -1,0 +1,1 @@
+Quels sont les exemples d'objets fabriqués par les gens qui sont utilisés comme images dans la Bible ?

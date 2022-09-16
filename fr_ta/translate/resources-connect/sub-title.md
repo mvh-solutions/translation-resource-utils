@@ -1,0 +1,1 @@
+Pourquoi certaines notes de traduction ne comportent-elles pas de texte ULT au début ?

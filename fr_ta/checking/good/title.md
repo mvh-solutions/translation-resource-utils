@@ -1,0 +1,1 @@
+Affirmation de l'exactitude et de l'acceptation de la communauté

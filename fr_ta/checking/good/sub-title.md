@@ -1,0 +1,1 @@
+Comment les dirigeants de l'église peuvent-ils affirmer que la traduction est précise, claire, naturelle et acceptable pour la communauté ?

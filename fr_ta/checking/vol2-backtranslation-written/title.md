@@ -1,0 +1,1 @@
+Types de traductions écrites en retour

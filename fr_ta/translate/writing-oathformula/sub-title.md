@@ -1,0 +1,1 @@
+Comment traduire les formules de serment dans ma langue ?

@@ -1,0 +1,1 @@
+Quand ne dois-je pas rendre explicites des informations implicites ?

@@ -1,0 +1,1 @@
+Notes qui identifient les figures de style

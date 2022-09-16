@@ -1,0 +1,1 @@
+Comment traduire des clauses avec une relation temporelle séquentielle ?

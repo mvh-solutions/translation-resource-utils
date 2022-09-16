@@ -1,0 +1,1 @@
+Quand garder l'information implicite

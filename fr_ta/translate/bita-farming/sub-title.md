@@ -1,0 +1,1 @@
+Quels sont les exemples d'images tirées de l'agriculture qui sont utilisées comme images dans la Bible ?

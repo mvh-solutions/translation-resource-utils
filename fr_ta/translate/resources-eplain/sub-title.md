@@ -1,0 +1,1 @@
+Quelle décision de traduction dois-je prendre lorsque je vois une explication dans les notes ?

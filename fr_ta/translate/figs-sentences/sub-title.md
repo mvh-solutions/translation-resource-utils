@@ -1,0 +1,1 @@
+Quelles sont les parties d'une phrase ?

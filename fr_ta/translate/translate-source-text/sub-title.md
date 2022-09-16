@@ -1,0 +1,1 @@
+Quels sont les facteurs à prendre en compte lors du choix d'un texte source ?

@@ -1,0 +1,1 @@
+Pourquoi certains numéros de versets sont-ils combinés dans l'UST, comme "3-5" ou "17-18" ?

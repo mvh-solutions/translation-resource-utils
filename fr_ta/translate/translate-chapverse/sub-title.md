@@ -1,0 +1,1 @@
+Pourquoi les numéros de chapitre et de verset de ma Bible sont-ils différents de ceux de votre Bible ?

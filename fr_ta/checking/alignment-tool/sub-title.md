@@ -1,0 +1,1 @@
+Comment utiliser l'outil d'alignement de translationCore pour vérifier l'alignement ?

@@ -1,0 +1,1 @@
+Connaissances présumées et informations implicites

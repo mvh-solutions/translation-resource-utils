@@ -1,0 +1,1 @@
+Comment les responsables de l'église peuvent-ils contribuer à améliorer la traduction ?

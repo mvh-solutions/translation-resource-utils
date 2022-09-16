@@ -1,0 +1,1 @@
+Quelle est la différence entre l'autorité de vérifier une traduction de la Bible et le processus de vérification ?

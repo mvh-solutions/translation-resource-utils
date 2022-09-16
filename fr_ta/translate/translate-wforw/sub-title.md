@@ -1,0 +1,1 @@
+Pourquoi ne devrais-je pas traduire en utilisant la substitution mot à mot ?

@@ -1,0 +1,1 @@
+Que sont les verbes et quelles sortes de choses leur sont associées ?

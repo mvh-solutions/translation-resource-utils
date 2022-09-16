@@ -1,0 +1,1 @@
+Notes avec des significations probables ou possibles

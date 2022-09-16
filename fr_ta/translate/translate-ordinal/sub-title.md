@@ -1,0 +1,1 @@
+Que sont les nombres ordinaux et comment puis-je les traduire ?

@@ -1,0 +1,1 @@
+La traduction utilise-t-elle un alphabet approprié ?

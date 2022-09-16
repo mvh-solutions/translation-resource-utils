@@ -1,0 +1,1 @@
+Déclaration de connexion et informations générales dans les notes

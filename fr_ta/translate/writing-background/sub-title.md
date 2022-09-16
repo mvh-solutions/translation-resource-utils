@@ -1,0 +1,1 @@
+Qu'est-ce qu'une information de base, et comment puis-je montrer que certaines informations sont des informations de base ?

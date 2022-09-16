@@ -1,0 +1,1 @@
+Une orthographe cohérente

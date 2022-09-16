@@ -1,0 +1,1 @@
+Quelles sont les questions qu'un contrôleur de qualité doit poser sur une traduction ?

@@ -1,0 +1,1 @@
+Qu'est-ce que l'hendiadys et comment puis-je traduire les phrases qui le contiennent ?

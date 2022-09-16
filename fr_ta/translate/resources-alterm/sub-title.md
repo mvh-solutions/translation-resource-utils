@@ -1,0 +1,1 @@
+Pourquoi certaines TranslationNotes comportent-elles des suggestions de traduction numérotées ?

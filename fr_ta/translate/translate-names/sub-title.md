@@ -1,0 +1,1 @@
+Comment puis-je traduire des noms qui sont nouveaux dans ma culture ?

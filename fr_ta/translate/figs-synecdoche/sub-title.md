@@ -1,0 +1,1 @@
+Qu'est-ce qu'une synecdoque, et comment puis-je la traduire dans ma langue ?

@@ -1,0 +1,1 @@
+Pronoms singuliers qui se réfèrent à des groupes

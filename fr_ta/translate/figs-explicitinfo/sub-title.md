@@ -1,0 +1,1 @@
+Que puis-je faire si certaines des informations explicites me semblent confuses, peu naturelles ou inutiles dans notre langue ?

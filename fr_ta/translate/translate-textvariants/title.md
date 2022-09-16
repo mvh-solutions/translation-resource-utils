@@ -1,0 +1,1 @@
+Variantes textuelles

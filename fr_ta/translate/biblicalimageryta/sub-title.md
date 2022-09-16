@@ -1,0 +1,1 @@
+Quels types d'images sont couramment utilisés dans la Bible ?

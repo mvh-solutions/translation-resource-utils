@@ -1,0 +1,1 @@
+Comment traduire les adjectifs qui se comportent comme des noms ?

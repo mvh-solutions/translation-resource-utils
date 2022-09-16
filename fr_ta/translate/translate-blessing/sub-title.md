@@ -1,0 +1,1 @@
+Que sont les bénédictions, et comment puis-je les traduire ?

@@ -1,0 +1,1 @@
+Quelles sont les étapes que je dois suivre, en tant que contrôleur de qualité, pour vérifier une traduction ?

@@ -1,0 +1,1 @@
+Pourquoi l'ULT comporte-t-il des versets manquants ou ajoutés, et dois-je les traduire ?

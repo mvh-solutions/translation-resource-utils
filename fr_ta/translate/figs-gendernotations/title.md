@@ -1,0 +1,1 @@
+Quand les mots masculins englobent les femmes

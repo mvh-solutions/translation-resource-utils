@@ -1,0 +1,1 @@
+Quels sont les exemples de choses dans la nature qui sont utilisées comme images dans la Bible ?

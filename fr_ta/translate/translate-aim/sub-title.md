@@ -1,0 +1,1 @@
+Quel devrait être le but de notre traduction de la Bible ?

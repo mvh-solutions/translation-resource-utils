@@ -1,0 +1,1 @@
+Quelle décision de traduction dois-je prendre lorsque je vois des mots entre guillemets dans les notes ?

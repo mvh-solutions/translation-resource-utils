@@ -1,0 +1,1 @@
+Comment traduire "brother" ou "he" alors qu'il peut s'agir de n'importe qui, homme ou femme ?

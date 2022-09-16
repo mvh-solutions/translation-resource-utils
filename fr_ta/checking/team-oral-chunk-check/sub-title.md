@@ -1,0 +1,1 @@
+Comment pouvons-nous vérifier notre traduction en équipe ?

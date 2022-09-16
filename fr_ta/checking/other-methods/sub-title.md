@@ -1,0 +1,1 @@
+Quelles sont les autres méthodes que je peux utiliser pour vérifier la clarté et le naturel de la traduction ?

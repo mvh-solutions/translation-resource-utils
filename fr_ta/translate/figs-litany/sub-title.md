@@ -1,0 +1,1 @@
+Quelle est la figure de style appelée litanie ?

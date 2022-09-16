@@ -1,0 +1,1 @@
+Quels sont les exemples de l'utilisation des plantes comme images dans la Bible ?

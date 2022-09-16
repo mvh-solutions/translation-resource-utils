@@ -1,0 +1,1 @@
+Que sont les noms collectifs et comment puis-je les traduire ?

@@ -1,0 +1,1 @@
+Vérification de l'autorité et du processus

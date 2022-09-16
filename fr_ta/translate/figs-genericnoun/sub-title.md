@@ -1,0 +1,1 @@
+Que sont les expressions nominales génériques et comment puis-je les traduire ?

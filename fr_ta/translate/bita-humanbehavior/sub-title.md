@@ -1,0 +1,1 @@
+Quels sont les exemples de choses que font les gens et qui sont utilisées comme images dans la Bible ?

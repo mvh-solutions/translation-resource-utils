@@ -1,0 +1,1 @@
+Quels sont les exemples d'animaux et de parties du corps d'animaux qui sont utilisés comme images dans la Bible ?

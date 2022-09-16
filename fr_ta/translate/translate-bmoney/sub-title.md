@@ -1,0 +1,1 @@
+Comment puis-je traduire les valeurs de l'argent dans la Bible ?

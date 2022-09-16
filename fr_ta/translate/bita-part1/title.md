@@ -1,0 +1,1 @@
+Imagerie biblique - Modèles courants

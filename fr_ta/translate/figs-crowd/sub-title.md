@@ -1,0 +1,1 @@
+Comment traduire dans ma langue un récit avec des foules ?

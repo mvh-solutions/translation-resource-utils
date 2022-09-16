@@ -1,0 +1,1 @@
+Quelle décision de traduction dois-je prendre lorsque je vois "traduction alternative :" dans les notes ?

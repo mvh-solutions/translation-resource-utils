@@ -1,0 +1,1 @@
+Comment les mots de liaison fonctionnent-ils pour relier les parties du texte de différentes manières ?

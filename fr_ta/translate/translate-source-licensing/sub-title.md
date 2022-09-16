@@ -1,0 +1,1 @@
+Quelles considérations relatives aux droits d'auteur et aux licences doivent être prises en compte lors du choix d'un texte source ?

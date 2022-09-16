@@ -1,0 +1,1 @@
+Vérification de la clarté et du naturel de la traduction

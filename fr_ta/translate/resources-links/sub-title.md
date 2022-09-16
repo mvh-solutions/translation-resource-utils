@@ -1,0 +1,1 @@
+Pourquoi devrais-je utiliser les liens dans les notes de traduction ?

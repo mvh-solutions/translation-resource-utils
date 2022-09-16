@@ -1,0 +1,1 @@
+Connecter - Clauses d'exception

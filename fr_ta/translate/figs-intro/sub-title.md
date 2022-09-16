@@ -1,0 +1,1 @@
+Quelles sont les figures de style ?

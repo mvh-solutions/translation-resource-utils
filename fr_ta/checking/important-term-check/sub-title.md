@@ -1,0 +1,1 @@
+Comment puis-je vérifier l'exactitude des mots importants dans ma traduction ?

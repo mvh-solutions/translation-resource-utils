@@ -1,0 +1,1 @@
+Que sont les modèles culturels et quels sont les modèles culturels que l'on trouve dans la Bible ?
