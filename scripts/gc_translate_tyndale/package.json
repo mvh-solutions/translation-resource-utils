@@ -1,0 +1,14 @@
+{
+  "name": "gc_translate_tyndale",
+  "version": "0.0.1",
+  "description": "Hello World Google Cloud Translate for Tyndale Notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Howe",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^7.2.1"
+  }
+}
