@@ -1,0 +1,15 @@
+{
+  "name": "amz_translate_tyndale",
+  "version": "0.0.1",
+  "description": "PoC of translation of Tyndale Notes using Amazon Translate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Howe",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-translate": "^3.312.0",
+    "aws-sdk": "^2.1359.0"
+  }
+}
