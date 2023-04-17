@@ -1,31 +1,61 @@
-const projectId = 'fresh-iridium-383914';
-const location = 'global';
-const text = `
-These verses introduce the Pentateuch (Genesis—Deuteronomy) and teach Israel that the world was created, ordered, and populated by the one true God and not by the gods of surrounding nations. • God blessed three specific things: animal life (*1:22-25*), human life (*1:27*), and the Sabbath day (*2:3*). This trilogy of blessings highlights the Creator’s plan: Humankind was made in God’s image to enjoy sovereign dominion over the creatures of the earth and to participate in God’s Sabbath rest.\\n\\n
-`;
-
-// Imports the Google Cloud Translation library
+const path = require('path');
+const fse = require('fs-extra');
 const {TranslationServiceClient} = require('@google-cloud/translate');
 
-// Instantiates a client
+const usage = "USAGE: node gc_translate_tyndale.js <lang> <inPath> <outPath>";
+if (process.argv.length !== 5) {
+    throw new Error(`Incorrect number of arguments\n${usage}`);
+}
+const lang = process.argv[2];
+const inPath = path.resolve(process.argv[3]);
+if (!fse.existsSync(inPath)) {
+    throw new Error(`Input file '${inPath}' does not exist\n${usage}`);
+}
+const inFile = fse.readFileSync(inPath).toString();
+const outPath = path.resolve(process.argv[4]);
+if (fse.existsSync(outPath)) {
+    throw new Error(`Output file '${outPath}' already exists\n${usage}`);
+}
+
+const projectId = 'fresh-iridium-383914';
+const location = 'global';
 const translationClient = new TranslationServiceClient();
 
-async function translateText() {
-    // Construct request
+const translateTexts = async () => {
+    const rows = inFile.split("\n");
+    let newRows = [];
+    let c = 0;
+    for (const row of rows) {
+        const cells = row.split('\t');
+        /*
+        if (!cells[0].startsWith('JON')) {
+            continue;
+        }
+         */
+        cells[3] = await translateOneText(cells[3]);
+        newRows.push(cells.join('\t'));
+        if (c % 10 === 0) {
+            console.log(c);
+        }
+        c++;
+    }
+    const outContent = newRows.join("\n");
+    fse.writeFileSync(outPath, outContent);
+}
+
+const translateOneText = async text => {
     const request = {
         parent: `projects/${projectId}/locations/${location}`,
         contents: [text],
         mimeType: 'text/plain', // mime types: text/plain, text/html
         sourceLanguageCode: 'en',
-        targetLanguageCode: 'fr',
+        targetLanguageCode: lang,
     };
 
-    // Run request
     const [response] = await translationClient.translateText(request);
-
-    for (const translation of response.translations) {
-        console.log(`Translation: ${translation.translatedText}`);
-    }
+    return response.translations
+        .map(t => t.translatedText)
+        .join(" ");
 }
 
-translateText();
+translateTexts().then();
