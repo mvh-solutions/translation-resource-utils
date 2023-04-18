@@ -34,7 +34,7 @@ with open(os.path.abspath(inPath), 'r') as f:
     endMarkdownRegex2 = r'(\S) <([_*]{2})'
     for line in f.readlines():
         cells = line.split('\t')
-        if lineNo > 0:
+        if lineNo > -1:
             if lineNo % 10 == 0:
                 print(lineNo)
             """
@@ -45,7 +45,8 @@ with open(os.path.abspath(inPath), 'r') as f:
             args = {
                 'auth_key': auth_key,
                 'text': srcText,
-                'target_lang': lang
+                'target_lang': lang,
+                'formality': 'less'
             }
             try:
                 response = requests.post(url, data=args)

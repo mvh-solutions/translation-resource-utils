@@ -24,11 +24,11 @@ const translateTexts = async () => {
     let c = 0;
     for (const row of rows) {
         const cells = row.split('\t');
-/*
+        /*
         if (!cells[0].startsWith('JON')) {
             continue;
         }
- */
+        */
         if (!cells[3]) {
             continue;
         }
@@ -47,9 +47,9 @@ const translateOneText = async text => {
     const input = {
         Text: text,
         SourceLanguageCode: "en",
-        TargetLanguageCode: "fr",
+        TargetLanguageCode: lang,
         Settings: {
-            Formality: "FORMAL"
+            Formality: "INFORMAL"
         }
     };
     const command = new TranslateTextCommand(input);

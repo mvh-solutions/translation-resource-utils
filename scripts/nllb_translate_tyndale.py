@@ -26,7 +26,7 @@ with open(os.path.abspath(inPath), 'r') as f:
     lineNo = 0
     for line in f.readlines():
         cells = line.split('\t')
-        if not(cells[0].split(' ')[0] == 'TIT'):
+        if not(cells[0].split(' ')[0] == 'JON'):
             continue
         if True or lineNo % 10 == 0:
             print(lineNo)
@@ -35,7 +35,7 @@ with open(os.path.abspath(inPath), 'r') as f:
             args = {
                 'source': srcSentence,
                 'src_lang': "eng",
-                'tgt_lang': "fra_Latn"
+                'tgt_lang': "arb_Arab"
             }
             try:
                 response = requests.post(url, data=args)
