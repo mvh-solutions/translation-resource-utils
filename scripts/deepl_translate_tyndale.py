@@ -4,7 +4,7 @@ import sys
 import os
 import time
 
-usage = "USAGE: python translate_tyndale.py <lang> <credsPath> <inPath> <outPath>"
+usage = "USAGE: python deepl_translate_tyndale.py <lang> <credsPath> <inPath> <outPath>"
 if len(sys.argv) != 5:
     raise Exception(usage)
 lang = sys.argv[1]
