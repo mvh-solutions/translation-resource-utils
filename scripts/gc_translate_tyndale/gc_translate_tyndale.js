@@ -27,11 +27,9 @@ const translateTexts = async () => {
     let c = 0;
     for (const row of rows) {
         const cells = row.split('\t');
-        /*
         if (!cells[0].startsWith('JON')) {
             continue;
         }
-         */
         cells[3] = await translateOneText(cells[3]);
         newRows.push(cells.join('\t'));
         if (c % 10 === 0) {

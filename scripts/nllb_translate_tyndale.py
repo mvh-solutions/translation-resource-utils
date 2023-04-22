@@ -35,7 +35,7 @@ with open(os.path.abspath(inPath), 'r') as f:
             args = {
                 'source': srcSentence,
                 'src_lang': "eng",
-                'tgt_lang': "arb_Arab"
+                'tgt_lang': "hin_Deva"
             }
             try:
                 response = requests.post(url, data=args)
