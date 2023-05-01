@@ -24,9 +24,11 @@ const translateTexts = async () => {
     let c = 0;
     for (const row of rows) {
         const cells = row.split('\t');
+        /*
         if (!cells[0].startsWith('JON')) {
             continue;
         }
+         */
         if (!cells[3]) {
             continue;
         }

@@ -37,10 +37,8 @@ with open(os.path.abspath(inPath), 'r') as f:
     for line in f.readlines():
         cells = line.split('\t')
         if lineNo > -1:
-            """
-            if not(cells[0].split(' ')[0] == 'JON'):
+            if not(cells[0].split(' ')[0] == 'TIT'):
                 continue
-            """
             if lineNo % 10 == 0:
                 print(lineNo)
             srcText = cells[3]
@@ -54,7 +52,7 @@ with open(os.path.abspath(inPath), 'r') as f:
             cells[3] = srcText
         outputLines.append('\t'.join(cells))
         lineNo += 1
-        time.sleep(5)
+        """time.sleep(5)"""
 
 with open(os.path.abspath(outPath), "w") as f:
     f.write('\n'.join(outputLines))
