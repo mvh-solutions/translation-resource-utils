@@ -4,7 +4,7 @@ const {TranslationServiceClient} = require('@google-cloud/translate');
 const {Proskomma} = require('proskomma-core');
 const axios = require('axios');
 
-const usage = "USAGE: node translate_scripture.js <fromLang> <toLang> <model> <usxInPath> <usfmOutPath>";
+const usage = "USAGE: node translate_scripture.js <fromLang> <toLang> <model> <usSomethingInPath> <usfmOutPath>";
 if (process.argv.length !== 7) {
     throw new Error(`Incorrect number of arguments\n${usage}`);
 }
@@ -32,7 +32,7 @@ const translateTexts = async () => {
     const pk = new Proskomma();
     pk.importDocument(
         {lang: "xxx", abbr: "yyy"},
-        "usx",
+        (inPath.endsWith('.usfm') ? "usfm" : "usx"),
         inContent
     )
     const query = `
