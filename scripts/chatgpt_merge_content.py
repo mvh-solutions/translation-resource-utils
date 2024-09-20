@@ -4,17 +4,16 @@ import os
 import openai
 import time
 
-usage = "USAGE: python chatgpt_translate_tyndale.py <lang> <credsPath> <inPath> <outPath>"
-if len(sys.argv) != 5:
+usage = "USAGE: python chatgpt_merge_content.py <credsPath> <inputPath> <outPath>"
+if len(sys.argv) != 4:
     raise Exception(usage)
-lang = sys.argv[1]
-credsPath = sys.argv[2]
+credsPath = sys.argv[1]
 if not(os.path.exists(credsPath)):
     raise Exception("Path to credentials {0} does not exist\n{1}".format(credsPath, usage))
-inPath = sys.argv[3]
+inPath = sys.argv[2]
 if not(os.path.exists(inPath)):
     raise Exception("Input path {0} does not exist\n{1}".format(inPath, usage))
-outPath = sys.argv[4]
+outPath = sys.argv[3]
 if os.path.exists(outPath):
     raise Exception("Output path {0} already exists\n{1}".format(outPath, usage))
 
@@ -26,33 +25,29 @@ url = 'https://api.openai/v1/models'
 openai.organization = "org-oDmzLM4nY8R33bwA1EyQXjjB"
 openai.api_key = auth_key
 
-outputLines = []
-with open(os.path.abspath(inPath), 'r') as f:
-    lineNo = 0
-    linkRegex = r'\[\[.*?\]\]'
-    startMarkdownRegex = r'([_*]{2})(\S)'
-    endMarkdownRegex = r'(\S)([_*]{2})'
-    startMarkdownRegex2 = r'([_*]{2})> (\S)'
-    endMarkdownRegex2 = r'(\S) <([_*]{2})'
-    for line in f.readlines():
-        cells = line.split('\t')
-        if lineNo > -1:
-            if not(cells[0].split(' ')[0] == 'TIT'):
-                continue
-            if lineNo % 10 == 0:
-                print(lineNo)
-            srcText = cells[3]
-            response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages= [
-                    {"role": "user", "content": 'Translate the following English text to French: "' + srcText + '"'}
-                ]
-            )
-            srcText = response['choices'][0]["message"]["content"]
-            cells[3] = srcText
-        outputLines.append('\t'.join(cells))
-        lineNo += 1
-        """time.sleep(5)"""
+with open(os.path.abspath(inPath), 'r') as inHandle:
+    inputJson = json.load(inHandle)
+
+response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": "You are an evangelical pastor summarising Bible study notes for B1-level English speakers."},
+        {"role": "system", "content": "These English speakers will use your notes to translate the Bible into a different language."},
+        {"role": "user", "content": "Make a summary of the following two source notes on a Bible text."},
+        {"role": "user", "content": "These source notes are formatted using markdown."},
+        {"role": "user", "content": "The summary should highlight special terms in bold bold text and should highlight translations of those special terms in italics, using markdown."},
+        {"role": "user", "content": "The summary should not refer to the source notes."},
+        {"role": "user", "content": "The summary should be shorter than the shorter of the two source notes."},
+        {"role": "user", "content": "The summary should separate comments on vocabulary, alternative translations and theology."},
+        {"role": "user", "content": "The summary should only use information in the source notes."},
+        {"role": "user", "content": "The summary does not need a main title or a conclusion."},
+        {"role": "user", "content": "The first text is here: " + inputJson["tyndale"] + "."},
+        {"role": "user", "content": "The second text is here: " + inputJson["biblica"] + "."},
+        {"role": "user", "content": "Format your output using markdown."},
+    ]
+)
+responseText = response['choices'][0]["message"]["content"]
+time.sleep(5)
 
 with open(os.path.abspath(outPath), "w") as f:
-    f.write('\n'.join(outputLines))
+    f.write(responseText)

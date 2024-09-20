@@ -7,7 +7,7 @@ bookCode = sys.argv[1]
 outPath = sys.argv[2]
 inPaths = sys.argv[3:]
 for inPath in inPaths:
-    outRows[-1].append(inPath)
+    outRows[-1].append(inPath.split('/')[-1].split('.')[0])
 secondaryTranslations = {}
 for inPath in inPaths[1:]:
     secondaryTranslations[inPath] = {}
@@ -30,7 +30,7 @@ with open(inPaths[0], "r") as pt:
             if secondaryTranslations[secondaryTranslation][cells[2]]:
                 outRows[-1].append(secondaryTranslations[secondaryTranslation][cells[2]])
             else:
-                outRows[-1].append("")
+                outRows[-1].append("Non traduit")
 with open(outPath, "w") as outHandle:
     for outRow in outRows:
         outHandle.write("\t".join(outRow))

@@ -37,22 +37,33 @@ with open(os.path.abspath(inPath), 'r') as f:
     for line in f.readlines():
         cells = line.split('\t')
         if lineNo > -1:
-            if not(cells[0].split(' ')[0] == 'TIT'):
+            if not(cells[0].split(' ')[0] == 'PHP'):
                 continue
-            if lineNo % 10 == 0:
+            if True or lineNo % 10 == 0:
                 print(lineNo)
             srcText = cells[3]
-            response = openai.ChatCompletion.create(
+            try:
+                response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages= [
                     {"role": "user", "content": 'Translate the following English text to French: "' + srcText + '"'}
                 ]
-            )
+                )
+            except Exception:
+                print('Exception: retrying')
+                time.sleep(5)
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    messages= [
+                        {"role": "user", "content": 'Translate the following English text to French: "' + srcText + '"'}
+                    ]
+                )
+
             srcText = response['choices'][0]["message"]["content"]
             cells[3] = srcText
-        outputLines.append('\t'.join(cells))
-        lineNo += 1
-        """time.sleep(5)"""
+            outputLines.append('\t'.join(cells))
+            lineNo += 1
+            time.sleep(5)
 
 with open(os.path.abspath(outPath), "w") as f:
     f.write('\n'.join(outputLines))

@@ -1,0 +1,15 @@
+{
+  "name": "countwords",
+  "version": "0.0.1",
+  "description": "Counts words by verse and chapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Howe",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "proskomma-core": "^0.10.4"
+  }
+}

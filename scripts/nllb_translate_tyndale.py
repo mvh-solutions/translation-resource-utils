@@ -15,7 +15,7 @@ outPath = sys.argv[2]
 if os.path.exists(outPath):
     raise Exception("Output path {0} already exists\n{1}".format(outPath, usage))
 
-url = 'http://192.168.1.66:6060/translate'
+url = 'https://tjo.re/translate'
 
 def splitIntoSentences(txt):
     markedTxt = re.sub("([^.]\\. )", "\\1<<>>", txt)
@@ -26,19 +26,21 @@ with open(os.path.abspath(inPath), 'r') as f:
     lineNo = 0
     for line in f.readlines():
         cells = line.split('\t')
+        """
         if not(cells[0].split(' ')[0] == 'JON'):
             continue
-        if True or lineNo % 10 == 0:
+        """
+        if lineNo % 10 == 0:
             print(lineNo)
         transTxts = []
         for srcSentence in splitIntoSentences(cells[3]):
             args = {
                 'source': srcSentence,
                 'src_lang': "eng",
-                'tgt_lang': "hin_Deva"
+                'tgt_lang': "fra_Latn"
             }
             try:
-                response = requests.post(url, data=args)
+                response = requests.post(url, data=args, auth=('', ''))
             except Exception:
                 print('Exception: retrying')
                 time.sleep(5)

@@ -95,7 +95,9 @@ const translateOneText = async (model, text) => {
             .join(" ");
     } else if (model === 'nllb') {
         const url = 'http://192.168.1.66:6060/translate';
-        const preSplitText = text.replace(/([^.]\\. )/g, "$1<<>>");
+        const preSplitText = text
+            .replace(/[\t\n\r]/g, " ")
+            .replace(/([^.]\. )/g, "$1<<>>");
         const sentences = preSplitText.split("<<>>");
         let translatedSentences = [];
         for (const sentence of sentences) {
